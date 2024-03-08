@@ -1,10 +1,11 @@
 body {
     font-family: "Raleway", sans-serif;
+    background-color: black;
     color: white;
 }
 
 .navbar {
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
@@ -17,4 +18,9 @@ body {
 
 .nav-link {
     color: white;
+}
+
+h3 {
+    text-align: center;
+    margin: 2em 0;
 }
