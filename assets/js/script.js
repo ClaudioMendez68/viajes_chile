@@ -1,3 +1,8 @@
+// Inicializando Tooltip
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+// jQuery
 $(document).ready(function () {
   // Hover en el navbar
   $(".nav-link").hover(

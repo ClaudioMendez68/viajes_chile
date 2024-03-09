@@ -3,7 +3,7 @@ body {
     background-color: black;
     color: white;
 }
-
+/* NAVBAR */
 .navbar {
     width: 90%;
     margin: auto;
@@ -20,6 +20,7 @@ body {
     color: white;
 }
 
+/* Sección artículo '¿Quiénes Somos?' */
 h3 {
     text-align: center;
     margin: 2em 0;
@@ -34,6 +35,7 @@ article i {
     padding: 2px 0;
 }
 
+/* Sección 'Destacados' */
 .card {
     height: 100%;
 }
@@ -42,6 +44,7 @@ article i {
     height: 173px;
 }
 
+/* FOOTER */
 .logos i {
     margin: 0 0.3em;
 }
