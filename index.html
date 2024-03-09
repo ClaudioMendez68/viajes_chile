@@ -150,27 +150,26 @@
             <hr>
             <form>
                 <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    <label for="inputName" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="inputName" name="inputName">
+                  </div>
+                <div class="mb-3">
+                    <label for="inputSubject" class="form-label">Asunto</label>
+                    <input type="text" class="form-control" id="inputSubject" name="inputSubject">
                 </div>
                 <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    <label for="inputMessage" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="inputMessage" name="inputMessage" rows="7" cols="10"></textarea>
                 </div>
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-info text-white">Enviar</button>
             </form>
         </section>
     </div> <!-- FIN CONTAINER -->
 
     <!-- FOOTER -->
-    <footer>
+    <footer class="bg-info mt-5">
         <h3>VIAJES CHILE</h3>
-        <div>
+        <div class="logos text-center">
             <i class="fab fa-github-square"></i>
             <i class="fab fa-linkedin"></i>
             <i class="fab fa-twitter-square"></i>
