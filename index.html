@@ -32,13 +32,13 @@
                         <a class="nav-link" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Quienes Somos</a>
+                        <a class="nav-link" href="#quienes">Quienes Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Destacados</a>
+                        <a class="nav-link" href="#destacados">Destacados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -71,7 +71,7 @@
         </div>
     </header>
     <!-- CONTAINER -->
-    <div class="container">
+    <div class="container" id="quienes">
         <!-- Sección artículo informativo 'Quiénes Somos' -->
         <article class="d-none d-md-block">
             <h3>¿QUIÉNES SOMOS?</h3>
@@ -98,7 +98,7 @@
             </div>
         </article>
         <!-- Sección 'Destacados'con cards fotográficas -->
-        <section>
+        <section id="destacados">
             <h3>DESATACADOS</h3>
             <hr>
             <div class="row">
@@ -145,7 +145,7 @@
             </div>
         </section>
         <!-- Sección de formulario 'Contacto'-->
-        <section>
+        <section id="contacto">
             <h3>CONTACTO</h3>
             <hr>
             <form>
@@ -167,9 +167,9 @@
     </div> <!-- FIN CONTAINER -->
 
     <!-- FOOTER -->
-    <footer class="bg-info mt-5">
-        <h3>VIAJES CHILE</h3>
-        <div class="logos text-center">
+    <footer class="row container-fluid bg-info mt-5 mx-0 p-5">
+        <h3 class="col-md-6 mb-2">VIAJES CHILE</h3>
+        <div class="col-md-6 logos text-center">
             <i class="fab fa-github-square"></i>
             <i class="fab fa-linkedin"></i>
             <i class="fab fa-twitter-square"></i>
