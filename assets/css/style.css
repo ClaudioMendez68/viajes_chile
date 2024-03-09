@@ -24,3 +24,12 @@ h3 {
     text-align: center;
     margin: 2em 0;
 }
+
+i {
+    font-size: 2em;
+    text-align: center;
+}
+
+article i {
+    padding: 2px 0;
+}
